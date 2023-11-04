@@ -10,6 +10,7 @@ let name = "Suhel"
 let age = 27
 let isLoggedIn = false
 let state;
+let statue = null;
 
 // number => 2 to power 53
 //bigint 
