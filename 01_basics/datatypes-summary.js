@@ -34,7 +34,7 @@ const myFunction = function(){
 }
 
 // console.log(typeof bigNumber);
-console.log(typeof heros);
+// console.log(typeof heros);
  
 
 // **Note 
@@ -48,3 +48,29 @@ Object(native and does not implement [[Call]]) => "object"
 Object(native or host does implement [[Call]]) => "function"
 Object(host and does not implement [[Call]]) => Implementation-defined except may not be "undefined", "boolean", "number", or "string".
 */
+
+
+// *********************
+
+// Stack (Primitive), Heap(Non-Primitive)
+
+let myYoutubeName= "suhelkuranecom"
+
+let anotherName= myYoutubeName
+
+anotherName = "kolhapuriHustler"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "suhel@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
